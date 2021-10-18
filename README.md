@@ -4,7 +4,7 @@
 
 - Humor, like most figurative language, poses interesting linguistic challenges to NLP, due to its emphasis on multiple word senses, cultural knowledge, and pragmatic competence. Humor is an essential but most fascinating element in personal communication.
 - In this project, we worked on a dataset with labels and ratings from a balanced set of age groups from 18-70.
-- We have created two Model which is used to predict whether the text is humorous, if it is humorous, what is the humor rating and humor controversy whereas if the text is offensive, how offensive it is.
+- We have created two models which are used to predict whether the text is humorous or not. If it is humorous, what is the humor rating and humor controversy whereas if the text is offensive, how offensive it is.
 
 ## **Relevant Domain Information:**
  https://competitions.codalab.org/competitions/27446
@@ -33,10 +33,10 @@ This is the training dataset with 1000 records. In this data, we had 2 columns: 
 
 ##  **Machine Learning :**
 
-- For detecting Sarcasm on the given dataset, we started by creating model using **Linear SVC** approach and **Naive Bayes**.
+- For detecting sarcasm on the given dataset, we started by creating model using **Linear SVC** approach and **Naive Bayes**.
 - Linear SVC model gave accuracy of **58.3%** and Naive Bayes model gave accuracy of **79.3%**.
-- Later on we decided to start  experimenting with TensorFlow model and we tried various model like **ColBERT**, **LSTM**, **wordEmbedding** with 4 layer model and one **without wordEmbedding** , and **GRU** . 
-- Among all this ColBERT gave the highest accuracy of **91.5%** in predicting if text is humor or not.
+- Later on we decided to start  experimenting with TensorFlow model and we tried various models like **ColBERT**, **LSTM**, **wordEmbedding** with 4 layer model and one **without wordEmbedding** , and **GRU** . 
+- Among all these ColBERT gave the highest accuracy of **91.5%** in predicting if text is humorous or not.
 - GRU gave **63.7%** accuracy, LSTM provided accuracy of **76%** and NN model with Word Embedding gave accuracy of **83.5%** .
 
 
